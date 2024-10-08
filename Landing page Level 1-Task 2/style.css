@@ -1,0 +1,76 @@
+body{
+    background-image: url("Black-Wallpaper-HD-1920x1080.jpg");
+}
+h1{
+    color: white;
+    text-align: center; 
+}
+.img{
+    border-radius: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.avatar{
+    float:right;
+    height: 50px;
+    border-radius: 50%;
+}
+.logo{
+    float:left;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.headings a{
+    float:right;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+h2{
+    font-size: 48px;
+    font-family: fantasy;
+    color: white;
+    text-shadow: 10px;
+}
+h3{
+    font-size: 20px;
+    color: white;
+    font-family:initial
+}
+
+.movielist{  
+    display: grid;
+    grid-template-columns: 260Px 260Px 260Px 260Px 260Px 260px ;
+    column-gap: 6px;
+}
+.movielist img{
+    transition: transform 0.4s ease-in-out;
+}
+.movielist img:hover{
+    transform: scale(1.2,1.2);
+}
+.headings :link{
+    transition: transform 0.25s ease-in-out;
+}
+.headings :link:hover{
+    transform: scale(1.1,1.1);
+}
+.englist{
+    display: grid;
+    grid-template-columns: 260Px 260Px 260Px 260Px 260Px 260px;
+    column-gap: 6px;
+}
+.englist img{
+    transition: transform 0.4s ease-in-out;
+}
+.englist img:hover{
+    transform: scale(1.2,1.2);
+}
+pre{
+    color: white;
+    font-family: cursive;
+}
